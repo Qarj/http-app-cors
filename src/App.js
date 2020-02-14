@@ -8,10 +8,11 @@ class App extends Component {
     };
 
     async componentDidMount() {
-        const response = await axios.get(
+        const { data: posts } = await axios.get(
             "http://jsonplaceholder.typicode.com/posts"
         );
-        console.log(response);
+        console.log(posts);
+        this.setState({ posts });
     }
 
     handleAdd = () => {
