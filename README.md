@@ -30,7 +30,7 @@ Access to XMLHttpRequest at 'https://jsonplaceholder.typicode.com/posts' from or
 
 ### request 1 - OPTIONS, response 204
 
-General
+_General_
 
 ```yaml
 Request URL: https://jsonplaceholder.typicode.com/posts
@@ -40,7 +40,7 @@ Remote Address: 104.27.152.209:443
 Referrer Policy: no-referrer-when-downgrade
 ```
 
-Request Headers
+_Request Headers_
 
 ```yaml
 :authority: jsonplaceholder.typicode.com
@@ -56,7 +56,7 @@ origin: http://localhost:3000
 user-agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
 ```
 
-Response Headers
+_Response Headers_
 
 ```yaml
 access-control-allow-credentials: true
@@ -79,7 +79,7 @@ x-powered-by: Express
 
 ### request 2 - POST, response 503
 
-General
+_General_
 
 ```yaml
 Request URL: https://jsonplaceholder.typicode.com/posts
@@ -89,7 +89,7 @@ Remote Address: 104.27.152.209:443
 Referrer Policy: no-referrer-when-downgrade
 ```
 
-Request Headers
+_Request Headers_
 
 ```yaml
 :authority: jsonplaceholder.typicode.com
@@ -106,13 +106,13 @@ referer: http://localhost:3000/
 user-agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
 ```
 
-Request Payload
+_Request Payload_
 
 ```json
 { "title": "a", "body": "b" }
 ```
 
-Response Headers
+_Response Headers_
 
 ```yaml
 cache-control: no-cache, no-store
@@ -126,7 +126,7 @@ set-cookie: __cfduid=dc7c54a568e718934fc36379ba4ca25be1581949664; expires=Wed, 1
 status: 503
 ```
 
-Response
+_Response_
 
 ```html
 <!DOCTYPE html>
